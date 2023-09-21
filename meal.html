@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Meal Search</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Discover Delicious Meals</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for a meal">
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    </div>
+    
+    <div class="results">
+        <h2>Search Results</h2>
+        <ul id="meal-list"></ul>
+    </div>
+    
+    <div class="meal-detail">
+        <img id="meal-image" src="" alt="Meal">
+        <h2 id="meal-name"></h2>
+        <p id="meal-instructions"></p>
+        <button id="back-button">Back to Search</button>
+    </div>
+
+    <div class="favorites-container">
+        <h2>My Favorite Meals</h2>
+        <ul id="favorites-list"></ul>
+    </div>
+
+    <script src="meal.js"></script>
+</body>
+</html>

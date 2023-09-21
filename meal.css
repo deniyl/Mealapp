@@ -1,0 +1,114 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+.header {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Style for the search container */
+.search-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Style for the search input */
+#search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 40px; /* Added padding for the search icon */
+}
+
+/* Style for the search icon */
+#search-icon {
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Style for the results and meal detail containers */
+.results, .meal-detail, .favorites-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style for the meal list */
+#meal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: block; /* Initially display the meal list */
+}
+
+/* Style for the meal detail */
+#meal-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#meal-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#meal-instructions {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Style for the favorites list */
+#favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favorites-list li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#favorites-list li button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#favorites-list li button:hover {
+    background-color: #ff0000;
+}
